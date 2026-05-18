@@ -26,6 +26,8 @@ I work end-to-end: data model → API → frontend → DevOps → live deploymen
 
 A **15-microservice ecosystem** I designed and built for a major UAE shopping mall. Spans operations, CX, tenants, reporting, notifications, wayfinding, and complaints — all production-deployed under a Docker Compose + Traefik infrastructure.
 
+> 📐 **[Read the full architecture blueprint →](https://github.com/Mosleh92/enterprise-mall-architecture)**
+
 ```mermaid
 graph TB
     subgraph "User Tiers"
@@ -89,6 +91,18 @@ graph TB
 <tr>
 <td width="50%" valign="top">
 
+### 🏬 [Enterprise Mall Architecture](https://github.com/Mosleh92/enterprise-mall-architecture)
+**Blueprint of a 15-service production system**
+
+Real architecture documentation • Mermaid diagrams • Service decomposition
+
+`Architecture` `Microservices` `Enterprise` `Case-Study`
+
+📐 Case study of real client work
+
+</td>
+<td width="50%" valign="top">
+
 ### 🏦 [Exchange Platform](https://github.com/Mosleh92/exchange-platform)
 **Multi-tenant currency exchange & P2P trading**
 
@@ -99,6 +113,8 @@ Real-time WebSocket trading • Role-based access • KYC + escrow
 ⭐ Has community star
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🏬 [MallOS Enterprise](https://github.com/Mosleh92/mallos-enterprise)
@@ -109,8 +125,6 @@ Real-time WebSocket trading • Role-based access • KYC + escrow
 `TypeScript` `Node.js` `AI` `IoT`
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 🎮 [MallQuest](https://github.com/Mosleh92/MallQuest)
@@ -119,16 +133,6 @@ Real-time WebSocket trading • Role-based access • KYC + escrow
 4 dashboards • Bilingual (AR/EN) • Real-time reward engine
 
 `Python` `Gamification` `Bilingual` `Real-time`
-
-</td>
-<td width="50%" valign="top">
-
-### 🚀 [BizKuasa](https://github.com/Mosleh92/bizkuasa) 🔒
-**Production SaaS for Indonesian merchants**
-
-WhatsApp automation • AI replies • PayPal + Xendit
-
-`Node.js` `PostgreSQL` `Redis` `Baileys` `Groq`
 
 </td>
 </tr>
@@ -213,6 +217,14 @@ A summary of production systems delivered under client agreements. Code is priva
 - **AI integration layers** — Groq, Ollama, OpenAI, LLaVA
 - **Enterprise portals** — React + Vite + PWA frontends, role-aware UX
 - **End-to-end Docker deployments** — production-grade on any VPS
+
+---
+
+## ⚖️ A Note on Code Use
+
+All code in this account is **proprietary and copyrighted**. Each repository ships with a `LICENSE` and `NOTICE` declaring terms. Reading, studying, and pattern reference are welcome; commercial use, redistribution, and derivative works require explicit licensing.
+
+If you want to use any of this in your business, **let's talk** — terms are reasonable for legitimate use cases.
 
 ---
 
